@@ -12,7 +12,7 @@ yesBtn.addEventListener("click", () => {
   // Send "Yes" to Gmail
   const recipient = "sokp0592@gmail.com"; // Your Gmail address
   const subject = "Response from Your Website";
-  const body = "Do You Love Me .. ?\n\nResponse : Yes , I Love You So Much ..😍🧸";
+  const body = "Question : Do You Love Me .. ?\n\nResponse : Yes , I Love You So Much ..😍🧸";
 
   // Construct the mailto link
   const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -25,7 +25,7 @@ noBtn.addEventListener("click", () => {
   // Send "No" to Gmail
   const recipient = "sokp0592@gmail.com"; // Your Gmail address
   const subject = "Response from Your Website";
-  const body = "Do You Love Me .. ?\n\nResponse : No .. 😊";
+  const body = "Question : Do You Love Me .. ?\n\nResponse : No .. 😊";
 
   // Construct the mailto link
   const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
